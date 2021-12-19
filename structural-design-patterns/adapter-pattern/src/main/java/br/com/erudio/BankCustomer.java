@@ -32,9 +32,10 @@ public class BankCustomer extends BankDetails implements CreditCard {
 	public String getCreditCard() {
 		long accountNumber = getAccountNumber();
 		String accountHolderName = getAccountHolderName();
-		String bname = getBankName();
+		String bankName = getBankName();
 
-		return ("The Account number " + accountNumber + " of " + accountHolderName + " in " + bname
+		return ("The Account number " + accountNumber + " of "
+				+ accountHolderName + " in " + bankName
 				+ " bank is valid and authenticated for issuing the credit card.");
 	}
 
