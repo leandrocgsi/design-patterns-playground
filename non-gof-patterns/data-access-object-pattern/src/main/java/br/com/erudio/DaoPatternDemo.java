@@ -2,6 +2,7 @@ package br.com.erudio;
 
 public class DaoPatternDemo {
 
+	//https://www.tutorialspoint.com/design_pattern/data_access_object_pattern.htm
 	public static void main(String[] args) {
 		StudentDao studentDao = new StudentDaoImpl();
 
